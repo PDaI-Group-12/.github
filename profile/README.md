@@ -1,5 +1,6 @@
 # PDaI Group 12
 Project plan (draft for commenting) 
+Team: Kit Lehto, Eelis Keränen, Teemu Yritys and Ville Matilainen
 
 Our project is an Employee and Employer app for reporting and monitoring working hours and wages.  
 
