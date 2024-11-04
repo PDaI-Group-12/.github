@@ -17,3 +17,10 @@ Tasks:
 A proposal: contract salary (urakkapalkka) is out of scope in this project. 
 
 Architecture. The coding language is typescript, middleware nodejs(?) and database is PostgreSQL. All architecture components must be defined together. The app will be published in Render or OAMK server? 
+
+<details>
+  <summary>Database</summary>
+
+![PDaI](https://github.com/user-attachments/assets/6487ad42-47b6-4e50-a76a-ebf5209c8679)
+
+<details/>
