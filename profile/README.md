@@ -1,27 +1,108 @@
-# PDaI Group 12
-Project plan (draft for commenting) 
-Team: Kit Lehto, Eelis Keränen, Teemu Yritys and Ville Matilainen
+<a name="readme-top"></a>
 
-Our project is an Employee and Employer app for reporting and monitoring working hours and wages.  
+<br />
 
-Roles: employee, employer, and administrator. Admin could be employer, to be defined. 
+<div align="center">
+  
+  <a href="https://github.com/syorito-hatsuki/<repo>">
+    <img src="https://raw.githubusercontent.com/PDaI-Group-12/.github/refs/heads/main/assets/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-The app has a frontpage with links to register and login pages. After login employee can see a main page where you can choose active period reporting for adding working hours, implemented tasks, and seeing coming wages. On history page exists for checking your previous periods with work hours and wage. Employer can check and approve the working hours of all employees.  
+  <h3 align="center">PDaI 12</h3>
 
-Tasks: 
-- Drafts of user interfaces and workflows 
-- High level system architecture 
-- Database structure  
-- Continuously update and maintain of this text  
-
-A proposal: contract salary (urakkapalkka) is out of scope in this project. 
-
-Architecture. The coding language is typescript, middleware nodejs(?) and database is PostgreSQL. All architecture components must be defined together. The app will be published in Render or OAMK server? 
+  <p align="center">
+    Work, Manage, and Pay with PDaI 12
+    <br />
+    <a href="#">Eelis Keränen</a>
+    ·
+    <a href="https://www.linkedin.com/in/kit-lehto/">Kit Lehto</a>
+    ·
+    <a href="#">Teemu Yritys</a>
+    ·
+    <a href="#">Ville Matilainen</a>
+  </p>
+  
+</div>
 
 <details>
-  
-  <summary>Database</summary>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li>
+          <a href="#built-with">Built With</a>
+          <ul>
+            <li><a href="#backend">Backend</a></li>
+            <li><a href="#frontend">Frontend</a></li>
+            <li><a href="#database">Database</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+App for Employee and Employer reporting and monitoring working hours and salary
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+#### Backend
+* ![ExpressJS](https://img.shields.io/badge/express-fff?style=for-the-badge&logo=express&logoColor=black)
+* ![NodeJS](https://img.shields.io/badge/nodejs-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white)
+* ![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+* ![Swagger](https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+* ![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+#### Frontend
+
+* ![Material UI](https://img.shields.io/badge/material%20ui-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+* ![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+* ![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+* ![ViteJS](https://img.shields.io/badge/vitejs-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Usage
+
+<details>
+  <summary>Backend</summary>
+
+### Deploy and run
+
+```bash
+npm run build && npm run start
+```
+> After build production version will be available in `dist` folder
+
+### Database structure
 
 ![PDAI 12 Database](https://github.com/user-attachments/assets/c93b2211-cdc0-4086-af9f-edfce419f620)
 
 </details>
+
+<details>
+  <summary>Frontend</summary>
+
+### Deploy and run
+
+```bash
+npm run build && npm run preview
+```
+> For deploy on real server, use `nginx` or else proxy to show up `dist` folder content
+
+</details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
