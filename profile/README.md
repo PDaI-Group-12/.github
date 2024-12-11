@@ -35,7 +35,6 @@
           <ul>
             <li><a href="#backend">Backend</a></li>
             <li><a href="#frontend">Frontend</a></li>
-            <li><a href="#database">Database</a></li>
           </ul>
         </li>
       </ul>
