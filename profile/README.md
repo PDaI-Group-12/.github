@@ -17,7 +17,7 @@
     ·
     <a href="https://www.linkedin.com/in/kit-lehto/">Kit Lehto</a>
     ·
-    <a href="#">Teemu Yritys</a>
+    <a href="https://github.com/Deforested">Teemu Yritys</a>
     ·
     <a href="#">Ville Matilainen</a>
   </p>
